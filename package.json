@@ -5,7 +5,14 @@
     "jquery": "^3.7.1",
     "wow.js": "^1.2.2"
   },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
   "devDependencies": {
-    "hint": "^7.1.10"
+    "hint": "^7.1.10",
+    "next": "^13.4.19"
   }
 }
