@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+#side-bar {
+    width: 50px;
+}
+
+#side-menu {
+    width: 250px;
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li:hover,
+i:hover {
+    cursor: pointer;
+}
+
+.copyright {
+    position: absolute;
+}
+
+.main-item {
+    overflow: hidden;
+}
+
+.main-item img {
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.meals picture .layer {
+    width: 100%;
+    height: 100%;
+    padding: 0.9375rem;
+    background-color: #00000096;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: top 400ms;
+}
+
+.main-item:hover .layer {
+    top: 0;
+}
+
+.itemLinks {
+    position: absolute;
+    bottom: -200px;
+    transition: bottom .9s ease-in-out;
+}
+.linkshow{
+    bottom: 0px;
+    position: absolute;
+}
+
+
+.ulcontainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+.mealimg img{
+border-radius: 10px;
+}
+.tag{
+    width: -moz-fit-content;
+    width: fit-content;
+    
+}

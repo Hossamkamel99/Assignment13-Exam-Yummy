@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./node_modules/wow.js/css/libs/animate.css">
+    <link rel="icon" href="./img/logo.png">
+    <title>Yummy</title>
+
+</head>
+
+<body class="bg-black position-relative">
+    <div id="loading">
+        <div class="d-flex justify-content-center align-items-center vh-100 ">
+            <i class="fa fa-spinner fa-spin text-white fa-4x "></i>
+        </div>
+    </div>
+
+    <div id="home">
+        <aside class="d-flex position-fixed top-0 z-3 ">
+            <div id="side-menu" class="bg-black vh-100">
+                <div class=" ulcontainer">
+                    <ul class="itemLinks text-white mt-4">
+                        <li id="search" class=" mt-3">Search</li>
+                        <li id="category" class=" mt-3">Categories</li>
+                        <li id="country" class=" mt-3">Area</li>
+                        <li id="ingr" class=" mt-3">Ingredients</li>
+                        <li id="contact" class=" mt-3">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="text-white mx-3 position-relative top-50">
+                    <div class="copyright ">
+                        <div class="d-flex">
+                            <i class="me-1 fa-brands fa-facebook"></i>
+                            <i class="me-1 fa-brands fa-twitter"></i>
+                            <i class="me-1 fa-solid fa-globe"></i>
+                        </div>
+                        <p>Copyright Â© 2019 All Rights
+                            Reserved.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="side-bar"
+                class="bg-white vh-100 d-flex flex-column justify-content-between align-items-center py-3 ">
+                <img src="./img/logo.png" alt="logo" class="w-75">
+                <div class="toggleBtn">
+                    <i class="toggBtn fa-solid fa-bars text-black fa-2x"></i>
+                </div>
+                <div class="d-flex flex-column">
+                    <i class="fa-solid fa-globe"></i>
+                    <i class="fa-solid fa-share-alt"></i>
+                </div>
+            </div>
+        </aside>
+
+        <div class="container showContact">
+            <div class=" row py-5 g-4 meals">
+            </div>
+        </div>
+    </div>
+
+    <script src="./node_modules/wow.js/dist/wow.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
